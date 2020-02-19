@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends 'base.html' %}  <!--take the data from the base.html file--> 
+
+{% block page_title %}{{ user }}'s Profile{% endblock %}
+
+{% block page_heading %}{{ user }}'s Profile{% endblock %}
+
+{% block content %}
+<p> {{ profile.email }}</p>
+{% endblock %}
